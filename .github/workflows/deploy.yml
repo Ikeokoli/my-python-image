@@ -9,7 +9,7 @@ jobs:
     steps: 
     - uses: actions/checkout@v3
     - name: build and push the image
-    - run: |
+      run: |
          docker login —username ikeokoli —password ${{ secrets.GH_PAT }} ghcr.io
          docker build . —tag ghcr.io/ikeokoli/my-python-image:latestversion3
          docker push ghcr.io/ikeokoli/my-python-image:latestversion3
