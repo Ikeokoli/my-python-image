@@ -8,7 +8,7 @@
 
 print("Registration Form")
 
-firstName = input("Enter your first name")
+#firstName = input("Enter your first name")
 
 lastName = input("Enter your last Name")
 
@@ -20,7 +20,7 @@ location = input("Enetr your location")
 
 print("Registration is successful")
 
-print("This User is ", firstName, lastName)
+#print("This User is ", firstName, lastName)
 print("Your department is ", department)
 print("Your staffId is ", staffId)
 print("Your location is ", location)
